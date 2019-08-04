@@ -1,0 +1,187 @@
+
+
+body {
+    background:           hsla(0, 0%,   100%, 0.7);
+    /*outline:  0.25rem solid hsla(210, 100%, 100%, 0.50);*/
+  }
+  
+      /* Editable Blog Elements*/
+        .date{
+          font-family: 'Oswald', sans-serif;
+          color: #87ceeb;
+          font-size: 3vw;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 2vw;
+          padding-right: 30px;
+          text-align: right;
+          position:relative;
+          outline-color: #345fff;
+          outline-width: 10px;
+          }
+  
+        .h1 {
+          font-family: 'Oswald', sans-serif;
+          color: #87ceeb;
+          padding-top: 5px;
+          padding-bottom: 1px;
+          padding-left: 30px;
+          padding-right: 10px;
+          text-align: left;
+          position:relative;
+          /*outline-color: #345fff;
+          outline-width: 10px;
+          outline:  0.25rem solid hsla(210, 100%, 100%, 0.50);*/
+          }
+  
+        .h2 {
+          font-family: 'Oswald', sans-serif;
+          color: #87ceeb;
+          padding-top: 1px;
+          padding-bottom: 10px;
+          padding-left: 30px;
+          padding-right: 30px;
+          text-align: left;
+          position:relative;
+          /*outline-color: #345fff;
+          outline-width: 10px;
+          outline:  0.25rem solid hsla(210, 100%, 100%, 0.50);*/
+          }
+  
+        .auth {
+          margin-top:15vw;
+          font-family: 'Oswald', sans-serif;
+          color: #0095d7;
+          padding-top: 30px;
+          padding-bottom: 10px;
+          /*padding-left: 30px;*/
+          padding-right: 30px;
+          text-align: left;
+          position:relative;
+          }
+  
+        .p {
+          margin-top:0.5vw;
+          margin-bottom: 0.5vw;
+          font-family: 'Oswald',sans-serif;
+          color: #0095d7;
+          padding-top: 0.5vw;
+          padding-bottom: 0.5vw;
+          padding-left: 10px;
+          padding-right: 10px;
+          text-align: left;
+          position:relative;
+          font-size: 1.5vw;
+          }
+  
+        .img{
+          margin-top: 8vw;
+        }
+        .wrapper1{
+          padding-top: 18vw;
+          display:grid;
+          grid-template-columns: 60% 40%;
+          /*
+          grid-column-gap:1em;
+          grid-row-gap:1em;
+          */
+          grid-gap:0em;
+         
+        }
+    
+        .wrapper1 > div{
+          padding:1em;
+        }
+        .wrapper1 > div:nth-child(odd){
+        }
+    
+         .wrapper2{
+          display:grid;
+          grid-template-columns: 15% 85%;
+          /*
+          grid-column-gap:1em;
+          grid-row-gap:1em;
+          */
+          grid-gap:1em;
+         }
+    
+        .wrapper2 > div{
+          padding:1em;
+        }
+        .wrapper2 > div:nth-child(odd){
+        }
+
+        .wrapper3{
+          padding-top: 1vw;
+          display:grid;
+          grid-template-columns: 60% 40%;
+          /*
+          grid-column-gap:1em;
+          grid-row-gap:1em;
+          */
+          grid-gap:0em;
+        }
+    
+        .wrapper3 > div{
+          padding:0em;
+        }
+        .wrapper3 > div:nth-child(odd){
+        }
+    
+      #firstdiv{
+        width: 100%;
+        height: relative;
+        overflow: hidden;
+        position:fixed;
+        top:6%;
+        z-index:999;
+      }
+    
+      #seconddiv{
+        width: relative;
+        height: relative;
+        position:absolute;
+        padding-top: 5vw;
+      }
+    
+      #thirddiv{
+        width: relative;
+        height: relative;
+        position:fixed;
+        top:5%;
+        left: 18%;
+        z-index:999;
+       
+    
+      }
+    
+      #fourthdiv{
+        width: relative;
+        height: relative;
+        position:fixed;
+        top:5%;
+        left: 1vw;
+        z-index:999;
+      
+      }
+      
+    
+    #imagediv1{
+        margin-top: 5vw;
+        margin-left: 3vw;
+        transform: rotate(-10deg);
+        padding: 1vw;
+    }
+    
+    #imagediv2{
+        margin-top: 10vw;
+        margin-left: 4vw;
+        transform: rotate(10deg);
+        
+    }
+          /* Editable Blog Elements*/
+  
+      
+  
+  
+  

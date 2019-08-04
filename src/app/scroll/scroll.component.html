@@ -1,0 +1,14 @@
+
+
+
+<virtual-scroll [items]="buffer" (update)="scrollItems = $event"
+    (end)="fetchMore($event)" >
+
+    <div *ngFor="let item of scrollItems">
+        
+        <app-blog-card [item]='item'></app-blog-card>
+    </div>
+    <div *ngIf="loading" class="loader">Loading...</div>
+
+</virtual-scroll>
+

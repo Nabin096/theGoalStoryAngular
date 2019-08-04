@@ -1,0 +1,56 @@
+body{
+    overflow-x:hidden;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Oswald;
+    padding-top: 5vw;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+}
+
+.row{
+    overflow-x: hidden;
+}
+.font1{
+    text-align: justify;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.nav-link{
+    font-family: Oswald;
+    font-size: 30px;
+}
+.hide{
+        display:block !important;
+}
+@media screen and (min-width: 1024px) {
+    .hide{
+        display:none !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hide1{
+        display:none;
+    }
+}
+@media (max-width: 400px) {
+    p{
+        text-align: center;
+        font-size: 17px;
+        font-family: Oswald;
+        padding-top: 5vw;
+    }
+}

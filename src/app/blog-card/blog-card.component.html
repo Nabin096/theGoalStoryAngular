@@ -1,0 +1,35 @@
+
+
+<div class="card">
+<div *ngIf="item.previewImage" class="img-card">
+<img src="{{item.previewImage}}" />
+</div>
+<div class="card-content">
+    <h4 class="card-title">
+        {{item.title}}
+    
+    </h4>
+    {{item?.previewText}}...
+</div>
+<div class="card-read-more">
+    <div class="btn btn-link btn-block">
+        <a routerLink="/Blog/{{item.blogId}}">Read More</a>
+    </div>
+</div>
+</div>
+<!-- <div class="VirtualScroll">
+        <div class="div1 polaroid">
+          <div class="row">
+            <div *ngIf="item.previewImage" class="img-card">
+                <div class="col-5 col-sm-6 col-md-6 col-lg-6" text-align:center; vertical-align:middle;">
+                    <img class="img1" src="messi.jpg">
+                </div>
+            </div>
+            <div class="col-5 col-sm-6 col-md-6 col-lg-6">
+                <h4 class="card-title">
+                    {{item.title}}
+                    
+                </h4>
+            </div>
+        </div>
+</div> -->

@@ -1,0 +1,77 @@
+<app-navbar></app-navbar>
+
+
+
+
+<!-- <div id="top">
+        <h2>Home</h2>
+</div>
+<div id="seconddiv"><img  src="./assets/img/coverback.png" alt="Cover1" style="width: 100%">
+</div>
+<div id="firstdiv"><img  src="./assets/img/coverfront.png" alt="Cover2" style="width: 100%; height: 80%;">
+</div>
+
+
+<article id="football">
+  
+<div class="wrapper2">
+    <div id="fourthdiv">
+        <p class="date" style="color: #aa605a">
+            {{date|date:'dd MMM'}}<br/>{{date|date: 'yyyy'}}
+            <!-- {{date|date:'yyyy'}}
+        </p>  
+    </div>
+
+    <div id="thirddiv"> 
+        <h1 class="h1" style="font-size: 3vw; color: #aa605a;">{{title}}</h1>
+        <!-- <h2 class="h2" style="font-size: 1.5vw;">It's on!</h2> 
+    </div>
+</div>
+
+
+
+<div class="wrapper1">
+        
+        <div class="auth" style="font-size: 2vw;">
+            {{author}}
+        </div>
+        <div></div>
+       </div>
+
+     <div class="wrapper3"> 
+    <div *ngFor="let blog of blogs">
+        
+        <div *ngIf="blog.tag==='Header'">
+                <h3>{{blog.innerHTML}}</h3>
+        </div>
+        <div *ngIf="blog.tag==='Textarea'">
+                <p style="text-align: justify;" class="p">{{blog.innerHTML}}</p>
+        </div>
+        <div *ngIf="blog.tag==='Image'">
+                <div id="imagediv1" class="revealOnScroll" data-animation="slideInUp" data-timeout="400">
+                    <img  src='{{blog.img}}' alt="Cover1" style="width: 70%;">
+                </div>
+            </div>
+            <div *ngIf="blog.sequenceNo%4===3">
+                <div id="imagediv2" class="revealOnScroll" data-animation="slideInUp" data-timeout="400">
+                    <img  src='{{blog.img}}' alt="Cover1" style="width: 70%;">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</article>
+<div id="bottom">
+        <h2>Contact Us</h2> 
+</div> -->
+<div *ngFor="let blog of blogs">
+  {{blog.innerHTML}}
+  {{title}}
+</div>
+
+
+
+<app-footer></app-footer>

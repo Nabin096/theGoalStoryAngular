@@ -1,0 +1,54 @@
+<app-navbar></app-navbar>
+<div class="wrapper">
+  <!-- Sidebar Holder -->
+  <nav class="navbar navbar-default sidebar" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>      
+        </div>
+        <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="sidebar-header"><img class="sidenav-img" src="./assets/img/logo.png"></li>
+            <li ><button type="button" (click)="changeFeed('Leagueoflegends')" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">Leagueoflegends<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></button></li>        
+            <li ><button type="button" (click)="changeFeed('Youngguns')" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">Youngguns<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></button></li>
+            <li ><button type="button" (click)="changeFeed('Prodigiestolegends')"  data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">Prodigiestolegends<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></button></li>        
+            <li ><button type="button" (click)="changeFeed('Letstalkfootball')" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">Letstalkfootball<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></button></li>
+            <li ><button type="button" (click)="changeFeed('OnceUponatimeinIndianFootball')" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">OnceUponatimeinIndianFootball<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></button></li>
+            <li ><button type="button" (click)="changeFeed('all')" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">Recent blogs<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></button></li>
+          </ul>
+          <!-- <ul class="list-unstyled CTAS">
+                      <div class="row">
+                          <div class="fb col-lg-4">
+                              <a href="http://fb.com">
+                  <img src="./assets/img/fb.png">
+                              </a>
+                          </div>
+                          <div class="tt col-lg-4">
+                              <a href="http://twitter.com">
+                  <img src="./assets/img/tt.png">
+                              </a>
+                          </div>
+                          <div class="ins col-lg-4">
+                              <a href="http://instagram.com">
+                  <img src="./assets/img/ins.png">
+                              </a>
+                          </div>
+            </div>
+                  </ul> -->
+      
+        </div>
+      </div>
+    </nav>
+        <div>
+               <app-scroll [genre]="genre"></app-scroll> 
+        </div>
+        
+      
+        
+  </div>
+<app-footer></app-footer>
